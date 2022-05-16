@@ -1,0 +1,20 @@
+<<<<<<< HEAD
+=======
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
+>>>>>>> fc9e1794b0e3230ad2a24b84b87adcf04877c79f
+@import "../../node_modules/bootstrap/scss/functions";
+
+$main: #040211;
+$second: #ff3e30;
+$tertiary: #829191;
+
+$primary: tint-color($main, 10%);
+$secondary: tint-color($second, 20%);
+$light: tint-color($tertiary, 0%);
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+<<<<<<< HEAD
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap");
+=======
+>>>>>>> fc9e1794b0e3230ad2a24b84b87adcf04877c79f
