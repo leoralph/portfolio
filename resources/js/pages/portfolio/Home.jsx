@@ -1,6 +1,17 @@
-import MainNavbar from "../../components/portfolio/navbar/Navbar";
+import Carousel from "../../components/portfolio/carousel/Carousel";
+import Footer from "../../components/portfolio/footer/Footer";
+import Navbar from "../../components/portfolio/navbar/Navbar";
+import Projetos from "../../components/portfolio/projetos/Projetos";
 
 const Home = (props) => {
-    return <div className="">Olá, mundo</div>;
+    return (
+        <>
+            <Navbar/>
+            <Carousel/>
+            <Projetos/>
+            <Footer/>
+        </>
+
+    );
 };
 export default Home;

@@ -5,7 +5,6 @@ import Home from "./pages/portfolio/Home";
 const Router = () => {
     return (
         <BrowserRouter>
-            <Navbar/>
             <Routes>
                 <Route path="/" element={<Home />} />
             </Routes>
